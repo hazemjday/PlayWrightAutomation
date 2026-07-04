@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Playwright test output
+playwright-report/
+test-results/
+trace.zip
+*.png
+blob-report/
+playwright/.cache/
+
+# Local environment
+.env
+*.local
+
+# VS Code
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
