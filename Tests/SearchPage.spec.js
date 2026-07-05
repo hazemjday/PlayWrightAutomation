@@ -1,4 +1,4 @@
-const { test, expect } = require('../fixtures/pageFixtures');
+const { test, expect } = require('../Fixtures/pageFixtures');
 
     test.describe('Search', () => {
 

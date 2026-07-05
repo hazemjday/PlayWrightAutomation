@@ -1,4 +1,4 @@
-const { test, expect } = require('../fixtures/pageFixtures');
+const { test, expect } = require('../Fixtures/pageFixtures');
 
 test('User can start signup', async ({ page, homePage, signUpPage }) => {
     await homePage.goto();
