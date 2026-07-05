@@ -1,11 +1,11 @@
 //the spec demo that are tests
 const base = require('@playwright/test');
 
-const HomePage = require('../pages/HomePage');
+const HomePage = require('../Pages/HomePage');
 const SignupLoginPage = require('../Pages/LoginPage');
-const AccountPage = require('../pages/AccountPage');
-const ContactUsPage = require('../pages/ContactUsPage');
-const SignUpPage = require('../pages/SignupPage');
+const AccountPage = require('../Pages/AccountPage');
+const ContactUsPage = require('../Pages/ContactUsPage');
+const SignUpPage = require('../Pages/SignupPage');
 const { SearchPage } = require('../Pages/SearchPage');
 const { CartPage } = require('../Pages/CartPage');
 // ... tes autres imports de pages (ProductsPage, CartPage, etc.)
