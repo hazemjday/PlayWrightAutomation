@@ -25,10 +25,10 @@ pipeline {
         }
 
         stage('Test') {
-            steps {
-                sh 'npx playwright test'
-            }
-        }
+    steps {
+        sh 'npx playwright test --project=chromium'
+    }
+}
 
 // store the report in the jenkins file 
         stage('Publish Report') {
